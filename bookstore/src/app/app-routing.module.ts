@@ -12,24 +12,20 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'categories',
-    loadChildren: () => import('./pages/categories/categories.module').then( m => m.CategoriesPageModule)
-  },
-  {
-    path: 'login',
-    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
-  },
-  {
-    path: 'register',
-    loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
-  },
-  {
     path: 'cart',
     loadChildren: () => import('./pages/cart/cart.module').then( m => m.CartPageModule)
   },
   {
     path: 'done',
     loadChildren: () => import('./pages/done/done.module').then( m => m.DonePageModule)
+  },
+  {
+    path: 'business',
+    loadChildren: () => import('./pages/business/business.module').then( m => m.BusinessPageModule)
+  },
+  {
+    path: 'maintenance',
+    loadChildren: () => import('./pages/maintenance/maintenance.module').then( m => m.MaintenancePageModule)
   },
 ];
 
