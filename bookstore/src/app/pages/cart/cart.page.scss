@@ -1,0 +1,326 @@
+.title{
+    color: #1c2a39;
+    left: 143px;
+    top: 25px;
+}
+.header-item1{
+    color: #1c2a39;
+    left: 480px;
+    bottom: 25px;
+}
+.header-item2{
+    color: #1c2a39;
+    left: 559px;
+    bottom: 74px;
+}
+.header-item3{
+    color: #1c2a39;
+    left: 673px;
+    bottom: 122.3px;
+}
+.header-item4{
+    color: #1c2a39;
+    left: 830px;
+    bottom: 171px;
+}
+.icon1 {
+    left: 1056px;
+    width: 50px;
+    bottom: 215px;
+}
+.icon2 {
+    left: 1094px;
+    width: 55px;
+    bottom: 265px;
+}
+.icon3 {
+    left: 1135px;
+    width: 55px;
+    bottom: 312px;
+}
+.title2{
+    color: #1c2a39;
+    left: 143px;
+    bottom: 220px;
+}
+.square {
+    top: -200px;
+    height: 900px;
+    width: 480px;
+    background-color: #ffffff;
+}
+.book1 {
+    z-index: 1;
+    position: absolute;
+    width: 134.27px;
+    height: 207.1px;
+    left: 239px;
+    top: 319.7px;
+}
+.book1-shadow {
+    z-index: 0;
+    position: absolute;
+    width: 110.2px;
+    height: 178.6px;
+    left: 251.03px;
+    top: 318.7px;
+    background: #EEECEC;
+    box-shadow: 0px 24px 36px rgba(53, 49, 84, 0.28);
+}
+.book1-author {
+    position: absolute;
+    width: 176px;
+    height: 20px;
+    left: 401px;
+    top: 355px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #5C6A79;
+}
+.book1-title {
+    position: absolute;
+    width: 176px;
+    height: 20px;
+    left: 401px;
+    top: 335px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C2A39;
+}
+.book1-text {
+    white-space: nowrap;
+    position: absolute;
+    width: 176px;
+    height: 20px;
+    left: 401px;
+    top: 385px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #5C6A79;
+}
+.book1-price1 {
+    white-space: nowrap;
+    position: absolute;
+    width: 94px;
+    height: 29px;
+    left: 407px;
+    top: 427px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1C2A39;
+}
+.book1-price2 {
+    white-space: nowrap;
+    position: absolute;
+    width: 94px;
+    height: 29px;
+    left: 407px;
+    top: 454px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1C2A39;
+}
+.book2 {
+    z-index: 1;
+    position: absolute;
+    width: 134.19px;
+    height: 214.2px;
+    left: 238.37px;
+    top: 582.03px;
+}
+.book2-shadow {
+    z-index: 0;
+    position: absolute;
+    width: 110.2px;
+    height: 178.6px;
+    left: 251.03px;
+    top: 590px;
+    background: #EEECEC;
+    box-shadow: 0px 24px 36px rgba(53, 49, 84, 0.28);
+}
+.book2-author {
+    position: absolute;
+    width: 82px;
+    height: 14px;
+    left: 401px;
+    top: 625px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #5C6A79;
+}
+.book2-title {
+    position: absolute;
+    width: 176px;
+    height: 20px;
+    left: 401px;
+    top: 605px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C2A39;
+}
+.book2-text {
+    position: absolute;
+    width: 517px;
+    height: 38px;
+    left: 401px;
+    top: 655px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #5C6A79;
+}
+.book2-price1 {
+    white-space: nowrap;
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 407px;
+    top: 697px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1C2A39;
+}
+.book2-price2 {
+    white-space: nowrap;
+    position: absolute;
+    width: 102px;
+    height: 22px;
+    left: 407px;
+    top: 719px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1C2A39;
+}
+.footer {
+    width: 1400px;
+    height: 150px;
+    top: 1050px;
+    background: #4C3DB2;
+}
+:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+}
+.square1 {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    left: 1102px;
+    top: 340px;
+    border: 1px solid #4C3DB2;
+    box-sizing: border-box;
+}
+.square1-button {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    left: 1102px;
+    top: 335px;
+}
+.square2 {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    left: 1155px;
+    top: 340px;
+    border: 1px solid #4C3DB2;
+    box-sizing: border-box;
+}
+.square2-button {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    left: 1155px;
+    top: 335px;
+}
+.square3 {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    left: 1102px;
+    top: 600px;
+    border: 1px solid #4C3DB2;
+    box-sizing: border-box;
+}
+.square3-button {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    left: 1102px;
+    top: 595px;
+}
+.square4 {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    left: 1156px;
+    top: 600px;
+    border: 1px solid #4C3DB2;
+    box-sizing: border-box;
+}
+.square4-button {
+   position: absolute;
+    width: 46px;
+    height: 45px;
+    left: 1155px;
+    top: 595px;
+}
+.checkout {
+    position: absolute;
+    width: 176px;
+    height: 45px;
+    left: 1026px;
+    top: 800px;
+    border: 1px solid #4C3DB2;
+    box-sizing: border-box;
+}
+.checkout-button {
+    position: absolute;
+    width: 176px;
+    height: 45px;
+    left: 1026px;
+    top: 800px;
+}
+:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+}
