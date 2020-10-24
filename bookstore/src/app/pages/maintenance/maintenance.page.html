@@ -1,0 +1,60 @@
+<ion-content>
+  
+  <ion-list>
+    <ion-item class="title" lines="none">
+      <ion-title style="font-weight: bold; font-family: 'MontserratMedium';" routerLink="/home">Bookstore</ion-title>
+      <router-outlet></router-outlet>
+    </ion-item>
+
+    <ion-item class="header-item1" lines="none">
+      <ion-label style="font-family: 'MontserratMedium'; font-size: small; font-weight: bold;" routerLink="/home">BOOKS</ion-label>
+      <router-outlet></router-outlet>
+    </ion-item>
+
+    <ion-item class="header-item2" lines="none">
+      <ion-label style="font-family: 'MontserratRegular'; font-size: small;" routerLink="/maintenance">AUDIOBOOKS</ion-label>
+      <router-outlet></router-outlet>
+    </ion-item>
+
+    <ion-item class="header-item3" lines="none">
+      <ion-label style="font-family: 'MontserratRegular'; font-size: small;" routerLink="/maintenance">STATIONERY & GIFTS</ion-label>
+      <router-outlet></router-outlet>
+    </ion-item>
+
+    <ion-item class="header-item4" lines="none">
+      <ion-label style="font-family: 'MontserratRegular'; font-size: small;" routerLink="/maintenance">BLOG</ion-label>
+      <router-outlet></router-outlet>
+    </ion-item>
+
+    <ion-item class="icon1" lines="none">
+      <img src="./assets/icons/profile.PNG" routerLink="/maintenance">
+      <router-outlet></router-outlet>
+    </ion-item>
+    
+    <ion-item class="icon2" lines="none">
+      <img src="./assets/icons/search.PNG" routerLink="/maintenance">
+      <router-outlet></router-outlet>
+    </ion-item>
+    
+    <ion-item class="icon3" lines="none">
+      <img src="./assets/icons/lock.PNG" routerLink="/maintenance">
+      <router-outlet></router-outlet> 
+    </ion-item>
+
+    <ion-item class="square" lines="none"></ion-item>
+
+    <div class="maintenance">
+      <img src="./assets/maintenance.jpg">
+    </div>
+
+    <div class="maintenance-text">
+      <ion-label style="font-family: 'MontserratMedium';">Sorry for the inconvenience! This page is down for maintenance.</ion-label>
+    </div>
+
+  </ion-list>
+
+  <ion-item class="footer" lines="none">
+    <ion-item-divider lines="none"></ion-item-divider>
+  </ion-item>
+
+</ion-content>
